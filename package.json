@@ -1,0 +1,46 @@
+{
+  "name": "espectroteca-ir",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Espectroteca IR interactiva: biblioteca, visor, análisis de bandas y conversión JCAMP-DX (React + TypeScript + Vite, publicable en GitHub Pages).",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:real": "tsx scripts/fetch-test-fixtures.ts && vitest run tests/jcamp.real.test.ts",
+    "library:build": "tsx scripts/build-library.ts",
+    "library:validate": "tsx scripts/validate-library.ts",
+    "jcamp:convert": "tsx scripts/jcamp-convert.ts",
+    "jcamp:import": "tsx scripts/import-batch.ts",
+    "jcamp:import:test": "tsx scripts/import-batch.ts --input tests/fixtures/controlled --manifest tests/fixtures/controlled/manifest.json --test",
+    "fixtures:real": "tsx scripts/fetch-test-fixtures.ts",
+    "check:secrets": "tsx scripts/check-secrets.ts"
+  },
+  "dependencies": {
+    "jszip": "3.10.1",
+    "pdfjs-dist": "4.8.69",
+    "plotly.js-basic-dist-min": "2.35.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "jcampconverter": "12.5.8",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8"
+  }
+}

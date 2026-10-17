@@ -1,0 +1,10 @@
+{
+  "source": { "name": "Archivos de prueba controlados (sintéticos)", "terms": "Dominio público; generados para las pruebas del proyecto." },
+  "files": [
+    { "file": "sintetico-acido.jdx", "compoundId": "prueba-acido-sintetico", "name": "Synthetic acid test spectrum", "nameEs": "Espectro sintético tipo ácido (prueba)", "formula": "—", "primaryCategory": "acidos-carboxilicos", "categories": ["acidos-carboxilicos"], "functionalGroups": ["acido"], "flags": ["tiene-ch-sp3"], "redistributable": true, "notes": "Espectro generado matemáticamente: no es experimental." },
+    { "file": "affn.jdx", "compoundId": "prueba-affn", "name": "AFFN test", "formula": "—", "primaryCategory": "alcanos", "categories": ["alcanos"], "functionalGroups": ["alcano"], "redistributable": true },
+    { "file": "uv-nm.jdx", "compoundId": "prueba-uv", "name": "UV test", "formula": "—", "primaryCategory": "aromaticos", "categories": ["aromaticos"], "functionalGroups": ["aromatico"] },
+    { "file": "pac.jdx", "compoundId": "prueba-pac", "name": "PAC test" },
+    { "file": "broken.jdx", "compoundId": "prueba-rota", "name": "Broken", "formula": "—", "primaryCategory": "alcanos", "categories": ["alcanos"], "functionalGroups": ["alcano"] }
+  ]
+}

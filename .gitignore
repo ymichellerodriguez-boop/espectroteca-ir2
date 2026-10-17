@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.*
+# archivos JCAMP-DX reales de terceros: se descargan para las pruebas y no se redistribuyen
+tests/fixtures/real/
+# salida del modo de prueba del importador y conversiones locales
+data/.import-test/
+data/converted/
+# documento original (contiene las impresiones SDBS); colóquelo aquí para repetir la extracción
+data/source/ESPECTROS.docx
+__pycache__/

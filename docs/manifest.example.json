@@ -1,0 +1,27 @@
+{
+  "source": {
+    "name": "NIST Chemistry WebBook (SRD 69)",
+    "url": "https://webbook.nist.gov/chemistry/",
+    "terms": "Compruebe las condiciones de uso y redistribución de la fuente antes de publicar los archivos."
+  },
+  "files": [
+    {
+      "file": "benzaldehido.jdx",
+      "compoundId": "benzaldehyde",
+      "name": "Benzaldehyde",
+      "nameEs": "Benzaldehído",
+      "synonyms": ["benzenecarbaldehyde"],
+      "formula": "C7H6O",
+      "primaryCategory": "aldehidos",
+      "categories": ["aldehidos", "aromaticos"],
+      "functionalGroups": ["aldehido", "aromatico"],
+      "flags": ["carbonilo-conjugado"],
+      "sourceIdentifier": "CAS 100-52-7",
+      "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C100527&Type=IR-SPEC",
+      "acquisitionDate": "2026-10-20",
+      "technique": "Fase gas",
+      "redistributable": false,
+      "notes": "Descargado manualmente."
+    }
+  ]
+}
